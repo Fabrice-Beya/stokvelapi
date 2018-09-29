@@ -1,6 +1,7 @@
 var express     = require("express"),
     router      = express.Router(),
     wallet      = require("ethereumjs-wallet"),
+    web3        = require('web3');
     Costumer    = require("../models/costumer");
 
 // get 
@@ -25,22 +26,20 @@ router.post("/", function(req, res){
             if(err){
                 console.log(err);
             } else {
-                const newWallet = wallet.generate();
-                newCostumer.rawWallet = newWallet;
-                newCostumer.wallet._privKey = newWallet.getPrivateKeyString();
-                newCostumer.wallet._pubKey = newWallet.getPublicKeyString();
+                const newWallet = webjs.eth.accounts.create();
+                newCostumer.wallet = newWallet;
                 newCostumer.save();
             }
         })
     });
 
     Costumer.find({}, function(err, costumers){
-        if(err){
-            console.log(err);
-        } else {
-            res.json(costumers);
-        }
-    })
+            if(err){
+                console.log(err);
+            } else {
+                res.json(costumers);
+            }
+        })
     })
     
 module.exports = router;

@@ -4,11 +4,7 @@ var costumerSchema = mongoose.Schema({
    name1 : String,
    mobilePhoneNumber: String,
    identityNumber: String,
-   wallet: {
-       _privKey: String,
-       _pubKey: String
-   },
-   rawWallet : Object
+   wallet: Object
 });
 
 module.exports = mongoose.model("Costumer", costumerSchema);
