@@ -5,6 +5,7 @@ var express             = require("express"),
     costumerRoutes      = require("./routes/costumer"),
     port                = process.env.PORT || 3001
 
+    
     // mongoose.connect('mongodb://localhost/stok');
     // mongoose.connect("mongodb://stokvel-api.documents.azure.com:10255/?ssl=true&replicaSet=globaldb",{
     //     auth:{  
