@@ -4,6 +4,8 @@ var express     = require("express"),
     web3        = require('web3');
     Costumer    = require("../models/costumer");
 
+var webjs = new web3(new web3.providers.WebsocketProvider('https://ropsten.infura.io/v3/d522d8be6db4449a96cb87ee171fed5b'));
+
 // get 
 router.get("/", function(req, res){
     
@@ -26,7 +28,7 @@ router.post("/", function(req, res){
             if(err){
                 console.log(err);
             } else {
-                const newWallet = webjs.eth.accounts.create();
+                let newWallet = webjs.eth.accounts.create();
                 newCostumer.wallet = newWallet;
                 newCostumer.save();
             }
