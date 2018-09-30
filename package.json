@@ -23,6 +23,7 @@
   "homepage": "https://github.com/Fabrice-Beya/stokvelapi#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
     "ethereumjs-wallet": "^0.6.2",
     "express": "^4.16.3",
     "mongoose": "^5.3.0",

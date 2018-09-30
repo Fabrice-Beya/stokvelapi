@@ -1,0 +1,192 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+
+article, aside, figcaption, figure, header, hgroup, main, nav, section {
+  text-align:center;
+  color:#fff;
+  background-repeat:no-repeat;
+  background-attachment:scroll;
+  background-position:50%;
+  background-size:cover;
+
+}
+.main {
+  margin-top: 70px;
+  margin-bottom: 0px;
+  text-align: center;
+  height: 100%;
+}
+
+header.masterhead {
+  position:relative;
+  overflow:hidden;
+  padding-top:calc(7rem + 72px);
+  padding-bottom:7rem;
+  background:linear-gradient(0deg,#ff6a00,#ee0979);
+  background-repeat:no-repeat;
+  background-position:50%;
+  background-attachment:scroll;
+  background-size:cover;
+}
+
+header.masterhead {
+  padding-top:calc(10rem + 55px);
+  padding-bottom:10rem;
+}
+
+.masthead.text-center.text-white {
+  padding-top:calc(10rem + 55px);
+  padding-bottom:10rem;
+}
+
+.masthead.text-center.text-white {
+  position:relative;
+  overflow:hidden;
+  padding-top:calc(7rem + 72px);
+  padding-bottom:7rem;
+  background:linear-gradient(0deg,#343a40,#343a40);
+  background-repeat:no-repeat;
+  background-position:50%;
+  background-attachment:scroll;
+  background-size:cover;
+}
+
+.btn:not(:disabled):not(.disabled) {
+  margin-top:50px;
+}
+
+article, aside, figcaption, figure, header, hgroup, main, nav, section {
+  color:#343a40;
+}
+
+question-section .container {
+  padding-top:25px;
+}
+
+question-container hr {
+  width:30%;
+}
+
+welcome-heading .h2, h2 {
+  text-align:center;
+}
+
+welcome-heading .h4, h4 {
+  text-align:center;
+}
+
+#question-section {
+  background-color:#ffffff;
+}
+
+question-container .p {
+  color:#fff;
+}
+
+#question-container {
+  color:#343a40;
+  padding:25px;
+}
+
+#question-section hr {
+  width:30%;
+}
+
+img {
+  vertical-align:middle;
+  border-style:none;
+}
+
+
+.img-fluid {
+  width:100%;
+  height: 350px;
+  min-height:200px;
+  
+}
+
+#blockchains .img-fluid {
+  width:100%;
+  height: auto;
+  min-height:200px;
+}
+
+#form-container.container {
+  text-align: center;
+  justify-content: center;
+  margin-top:50px;
+  padding-top:25px;
+ 
+}
+
+#about-container.container, #form-container.container {
+  text-align: center;
+  justify-content: center;
+  margin-top:50px;
+  padding-top:25px;
+}
+#form-container .container {
+  text-align: center;
+  justify-content: center;
+  margin-top:50px;
+  padding-top:25px;
+}
+
+#show-section{
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+#show-section.row {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.tags{
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  color: #333;
+}
+
+.tags.meta-heading{
+  color: #22245b;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+.tags.span{
+  color: #979797;
+}
+
+#portforlio img{
+  width: 30%;
+  height: 50%;
+}
+
+footer{
+  text-align: center;
+  color:white;
+  width:100%;
+  background:#343a40;
+  background-color: #343a40;
+}
+
+a {
+  text-decoration: none; 
+  color: #333
+}
+
+/* .asset-box{
+  background: white;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+  border: 1px solid rgba(160, 160, 160, 0.2)
+} */
